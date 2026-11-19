@@ -44,5 +44,21 @@ Both models were evaluated using:
 - Confusion matrix images – Model evaluation visualizations.
 - `requirements.txt` – Required Python libraries.
 
-## Conclusion
-The project compares Logistic Regression and Random Forest to identify which model performs better on the Titanic dataset using multiple evaluation metrics.
+## Model Comparison and Conclusion
+
+Two machine learning classification models were trained and evaluated: Logistic Regression and Random Forest.
+
+The evaluation results were:
+
+| Metric | Logistic Regression | Random Forest |
+|---|---:|---:|
+| Accuracy | 80.45% | 82.12% |
+| Precision | 79.31% | 81.36% |
+| Recall | 66.67% | 69.57% |
+| F1-score | 72.44% | 75.00% |
+
+Random Forest performed better across all four evaluation metrics on the test dataset.
+
+This may be because Random Forest can capture complex patterns and non-linear relationships in the data by combining multiple decision trees, whereas Logistic Regression models a linear relationship between the input features and the outcome.
+
+Therefore, Random Forest was the better-performing model in this experiment.
